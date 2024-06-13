@@ -1,0 +1,116 @@
+.form-bg{
+    background-image: url('../assets/images/limk4.jpeg');
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-size: cover; /* Scale the image to cover the entire element */
+    background-attachment: fixed; /* Fix the background image, so it stays in place when the page is scrolled */
+    display: flex; /* Use flexbox for centering content inside the element */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; 
+ } 
+
+ /* @media (max-width: 768px) {
+    .form-bg {
+        background-attachment: scroll;
+        height: auto;
+    }
+}   */
+
+ .form-container{
+    background: linear-gradient(150deg,hsl(12, 13%, 8%) 33%, black 40%,white 34%,grey 66%,hsl(15, 8%, 10%) 67%);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 30px 20px 50px;
+    /* margin-top: 50px; */
+} 
+ .form-container .title{
+    color: #fff;
+    font-size: 23px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: auto auto 60px;
+}
+.form-container .form-horizontal{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(169, 165, 165, 0.4);
+} 
+ /* .form-horizontal .form-icon{ */
+    /* color: #fff; */
+    /* background-color: #EC5F20; */
+    /* background-image: url('../orange_logo.png'); */
+    /* background-repeat: no-repeat; */
+    /* font-size: 15px; */
+    /* line-height: 92px; */
+    /* height: 20vh; */
+    /* width: 20vw; */
+    /* margin: -65px auto 10px; */
+    /* border-radius: 50%; */
+/* } */
+.form-horizontal .form-group{
+    margin: 0 0 10px;
+    position: relative;
+} 
+ .form-horizontal .form-group:nth-child(3){ margin-bottom: 30px; }
+.form-horizontal .form-group .input-icon{
+    color: #e7e7e7;
+    font-size: 23px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+} 
+ .form-horizontal .form-control{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    padding: 10px 10px 10px 40px;
+    margin: 0 0 5px;
+    border: none;
+    border-bottom: 2px solid #e7e7e7;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.form-horizontal .form-control:focus{
+    box-shadow: none;
+    border-bottom-color: #181616;
+} 
+.form-horizontal .form-control::placeholder{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.form-horizontal .forgot{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: right;
+    display: block;
+} 
+ .form-horizontal .forgot a{
+    color: #777;
+    transition: all 0.3s ease 0s;
+}
+.form-horizontal .forgot a:hover{
+    color: #777;
+    text-decoration:  underline;
+} 
+ .form-horizontal .signin{
+    color: #fff;
+    background-color: #0e0c0b;
+    font-size: 17px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    width: 50%;
+    padding: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all 0.4s ease 0s;
+} 
+.form-horizontal .signin:hover,
+.form-horizontal .signin:focus{
+    font-weight: 600;
+    letter-spacing: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3) inset;
+} 
+ 
